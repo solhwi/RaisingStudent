@@ -1,0 +1,191 @@
+{
+    "QuestId": 25,
+    "QuestName": "한 단체의 수장은 머리를 조아려선 안돼",
+    "QuestDescription": "민준이가 싸웠다고? 민준아 너 왜 그래?",
+    "QuestContext": [
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "오늘 502에서 깔루아 회의있는 거 알지?:1",
+                "(어? 오 맞다)",
+                "으이구! 어서 가자!:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 16000,
+            "ObjName": "나경",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "...",
+                "엥? 회의실 802호로 수정됐대!",
+                "민준이가 과사직원이랑 싸우고 있나본데?:1",
+                "큰일나는 건 아니겠지?:1",
+                "어머머 이게 무슨 일이래...",
+                "(...민준이에게 가보자!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "쉬익.. 쉬익...:3",
+                "아주 참을 수가 없어...:3",
+                "(무슨 일이야?)",
+                "후...:3",
+                "진정하자...",
+                "(민준이가 화가 잔뜩 난 것 같다.)",
+                "(잠시 후에 다시 말을 걸자.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 800,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "아니.. 자기네가 실수를 했으면 책임감을 보여야 하는 거 아냐?:3",
+                "우리가 먼저 교실을 빌렸는데...:3",
+                "왜 우리가 다른 교실로 옮겨야 하냐구:3",
+                "사과 한 마디도 없고 말이야.:3",
+                "이건 교실을 옮기고 말고의 문제가 아니야.:3",
+                "좋은 게 좋은 거지라는 말은 이런 데 사용되면 안 된다구.:3",
+                "내가 따졌더니 뭐랬는 지 알아?:3",
+                "가정 교육 제대로 받았냐잖아?:3",
+                "그게 과사무실 직원이 할 말이야?!",
+                "(...)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 300,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 23000,
+            "ObjName": "은서",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "민준이도 이해가 가긴 하는데...",
+                "음... 근데...",
+                "굳이 그렇게까지 할 필요가 있었을까...?:1",
+                "그냥 회의하는 건데 뭐:1",
+                "802호에서 해도 되잖아!",
+                "굳이 과사무실 직원이랑 왜 싸우냐구..."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1300,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 16000,
+            "ObjName": "나경",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "......",
+                "나도 이번엔 민준이가 조금 과민반응했다고 생각해...:1"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 700,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 17000,
+            "ObjName": "관형",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "한 단체의 수장은 머리를 조아려선 안돼.:1",
+                "민준인 수장으로서 멋진 일을 한 거야.",
+                "그의 장렬한 전사에 묵념하자."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 900,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "너무 억울해...",
+                "내가 뭘 잘못했지...?",
+                "나는 과사무실 직원이 할 일을 제대로 안한 걸 따졌을 뿐이야",
+                "이런 일이 계속 반복되면 우리에게도 좋을 게 없으니까",
+                "......",
+                "...",
+                "내가 잘못한 걸까?"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1000,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "그래... 과사무실에 욕보여서 좋을 건 없으니까...",
+                "나중에 사과하러 가야겠다...",
+                "그래..."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 800,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 24000,
+            "ObjName": "혜민",
+            "ItemForTalk": "CAKE",
+            "TalkContext": [
+                "(민준: 죄송합니다 제가 과민반응한 것 같아요.)",
+                "(민준: 별 건 아니고 사과의 의미에서 사온 겁니다.)",
+                "고마워요 그래도 사과해줘서",
+                "제가 과사 생활하면서 많이 사람들이랑 많이 싸워왔는데",
+                "사과받은 건 처음이네요.",
+                "저도 죄송합니다."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1000,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "아니 많은 사람들이랑 싸워온 건 또 뭐야...",
+                "많이 싸웠으면 본인이 문제가 있는 걸 알아야 되는 거 아냐?",
+                "후...",
+                "좋게 끝났으니까 봐준다...",
+                "아오 화나...",
+                "아오!!:3"
+            ],
+            "ItemCodeReward": "CAKE",
+            "GoldReward": 2500,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 17000,
+            "ObjName": "관형",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "한 단체의 수장은 머리를 조아려선 안된다고.",
+                "그거 진심이야. 나 같으면 민준이가 그렇게 하게 놔두지 않았을 거야.",
+                "나중에 보리차나 사줘야겠다.:1",
+                "너도 따라와.",
+                "(한 단체의 수장은 머리를 조아려선 안돼. 에피소드 끝)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 900,
+            "LikeReward": 0
+        }
+    ]
+}

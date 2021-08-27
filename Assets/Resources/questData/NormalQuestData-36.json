@@ -1,0 +1,22 @@
+{
+    "QuestId": 36,
+    "QuestName": "나경이는 항상 피곤해",
+    "QuestDescription": "노골적이지 않은 점수 따기",
+    "QuestContext": [
+        {
+            "ObjId": 16000,
+            "ObjName": "나경",
+            "ItemForTalk": "AMERICANO",
+            "TalkContext": [
+              "어..? 왜?",
+              "고마워..!",
+              "근데 왜..?:1",
+              "아무튼 잘 먹을게! 고마워:0",
+              "(나경이와의 호감도가 오른 것 같다!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 2
+        }
+    ]
+}

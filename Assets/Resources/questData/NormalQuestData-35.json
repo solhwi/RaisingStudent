@@ -1,0 +1,22 @@
+{
+    "QuestId": 35,
+    "QuestName": "유진이는 인형을 좋아해",
+    "QuestDescription": "노골적인 점수 따기",
+    "QuestContext": [
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "APEACH",
+            "TalkContext": [
+                "어? 이게 뭐야?",
+                "...나 주는 거야?:2",
+                "정말 고마워!!:2",
+                "하하.. 인형 좋아한다고 너무 티내고 다녔나?!:2",
+                "(유진이의 호감도가 오른 것 같다.):2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 2
+        }
+    ]
+}

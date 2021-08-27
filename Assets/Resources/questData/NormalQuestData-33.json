@@ -1,0 +1,68 @@
+{
+    "QuestId": 33,
+    "QuestName": "박커스 무료 나눔",
+    "QuestDescription": "공부에 지친 동기들을 위한 박커스 무료 나눔!",
+    "QuestContext": [
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "BAKKAS",
+            "TalkContext": [
+                "너무 힘들어...",
+                "공부하기 싫어...",
+                "응? 이거 나 주는 거야?:1",
+                "정말 고마워!:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 3000,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "BAKKAS",
+            "TalkContext": [
+                "(탁 타닥..)",
+                "(타닥..)",
+                "(민준이는 오늘도 공부 중이다.)",
+                "응? 머야 이걸 주러 여기까지 왔다고?",
+                "뭐야 괜찮네.:1",
+                "잘 마실게 고마워."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 2700,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 22000,
+            "ObjName": "혜정",
+            "ItemForTalk": "BAKKAS",
+            "TalkContext": [
+                "아 뭐야 왜 안돼!",
+                "(...오늘도 혜정이는 텐션이 높다.)",
+                "어? 이거 내꺼라고?:1",
+                "뭐야 너...",
+                "고마워!:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 3500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 21000,
+            "ObjName": "동우",
+            "ItemForTalk": "BAKKAS",
+            "TalkContext": [
+                "응 정말..?",
+                "이거 나 주는 거야..?:1",
+                "고마워 흑흑",
+                "잘 마실게.",
+                "너도 고생해~",
+                "(모두 고생이 많다. 나도 힘내자!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 2500,
+            "LikeReward": 0
+        }
+    ]
+}

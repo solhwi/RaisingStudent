@@ -1,0 +1,87 @@
+{
+    "QuestId": 2,
+    "QuestName": "은지의 칼날",
+    "QuestDescription": "귀몰의 은지? 은지의 칼날?",
+    "QuestContext": [
+        {
+            "ObjId": 13000,
+            "ObjName": "은지",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "어? 오랜만이야!:1",
+                "어디 갔다 오는 길이야?:1",
+                "으흥 잠깐 요 앞에 다녀오는 길이라고?",
+                "안 바쁘면 잠깐 와봐봐.",
+                "지금 아주 급한 일이 있어.",
+                "무슨 일이냐고?",
+                "바로 이번에 내가 제일 좋아하는 영화가 개봉했다는 거야.",
+                "그 영화는 이번에 박스오피스를 뒤집어 놨으며,",
+                "다른 영화들의 기록을 모조리 갈아치우고 있다구."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 13000,
+            "ObjName": "은지",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(......)",
+                "ㅇ..아무튼 뭐가 급한 일이냐면,",
+                "바로 내가 과제 때문에 보러갈 수 없다는 거야!",
+                "(...아?)",
+                "아 물론, 대신 해달라는 거는 아니고!:1",
+                "오늘 내가 밤을 샐 거라서 커피가 필요하다는 거야!:1",
+                "아메리카노 1잔이면 돼!:2",
+                "부탁 좀 해도 될까?!?!:1",
+                "(...? 정말 이 부탁이 맞나?)",
+                "(의심스럽지만 은지의 부탁을 들어주자.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 2000,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 13000,
+            "ObjName": "은지",
+            "ItemForTalk": "AMERICANO",
+            "TalkContext": [
+                "아, 사왔구나? 정말 고마워.",
+                "이 은혜는 잊지 않을게!",
+                "(으음...)",
+                "(아무튼 은지가 기뻐하니 다행이다!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1000,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 12000,
+            "ObjName": "유빈",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "어욱...",
+                "ㅂ..박ㅋ스..가 필요해...",
+                "(뭐야! 유빈아 왜 그래!)",
+                "(유빈이를 위해 박커스를 사다주자!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 12000,
+            "ObjName": "유빈",
+            "ItemForTalk": "BAKKAS",
+            "TalkContext": [
+                "ㄱ..고마워...",
+                "덕분에 살았어...",
+                "(은지 녀석, 유빈이를 시켰나보다.)"
+            ],
+            "ItemCodeReward": "WORRY",
+            "GoldReward": 1000,
+            "LikeReward": 1
+        }
+    ]
+}

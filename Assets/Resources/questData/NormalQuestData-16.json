@@ -1,0 +1,86 @@
+{
+    "QuestId": 16,
+    "QuestName": "음식물을 버리는 획기적인 방법",
+    "QuestDescription": "엥? 음식물 쓰레기는 봉투에 버려야 해",
+    "QuestContext": [
+        {
+            "ObjId": 13000,
+            "ObjName": "은지",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "그거 알아?:1",
+                "음식물 쓰레기를 버리는 효과적인 방법이 있대.",
+                "맨날 봉투에 담아 버리니까 냄새나고 싫었지?",
+                "비밀은 바로!",
+                "(...바로?)",
+                "변기통!"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 400,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 13000,
+            "ObjName": "은지",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "아이~ 당연히 큰 쓰레기는 안되지.",
+                "갈아서 넣어야 해.",
+                "안 갈리는 건 당연히 안 되고,",
+                "어차피 우리가 먹기 불편한 음식은 안 먹으니까",
+                "대부분 갈아서 넣어버리면 되는 거지!",
+                "아닌가??:1"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 600,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 112000,
+            "ObjName": "집 앞 음식물 쓰레기통",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(...어음...)",
+                "(이것들을 갈아서 버린다고?)",
+                "(이게 가능한가...?)",
+                "(에이 어림도 없을 것 같은데;;)",
+                "(검색해보자.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 300,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 106000,
+            "ObjName": "집 컴퓨터",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(음식물 파쇄기...)",
+                "딸깍-",
+                "\"현행법은 2차 처리기를 통해 음식물을 80% 이상 회수하는 제품만 인증하도록 규정합니다.\"",
+                "......",
+                "(역시 안되는군...)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 13000,
+            "ObjName": "은지",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "뭐어~? 안된다고?!?:1",
+                "그럴 리가!!",
+                "(...봐봐, 안되잖아.)",
+                "아악!!",
+                "죄송해요 잡아가지만 마세요!!",
+                "아앙ㅠㅠㅠㅠ",
+                "(음식물 쓰레기를 버리는 획기적인 방법 에피소드 끝)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1000,
+            "LikeReward": 0
+        }
+    ]
+}

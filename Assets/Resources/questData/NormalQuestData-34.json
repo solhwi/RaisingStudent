@@ -1,0 +1,59 @@
+{
+    "QuestId": 34,
+    "QuestName": "유빈이의 근심",
+    "QuestDescription": "자취텔의 엄마, 유빈이를 돕자.",
+    "QuestContext": [
+        {
+            "ObjId": 12000,
+            "ObjName": "유빈",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "흠...",
+                "(유빈아 무슨 일 있어?)",
+                "어? 어.. 아니..",
+                "음식물 쓰레기 봉투가 다 떨어져서 고민 중이야.:1",
+                "오늘 상점이 파업이래.",
+                "(...아하)",
+                "(뭐 버릴 건데?)",
+                "라면.",
+                "(...엥?)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 300,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 12000,
+            "ObjName": "유빈",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(...엥? 그건 변기에 넣고 내리면 되지 않아?)",
+                "...그러기엔 너무 많이 남았거든",
+                "(...아하)",
+                "(그럼 내가 버려줄까?)",
+                "그래도 되니?",
+                "그럼 부탁 좀 할게!",
+                "(유빈이의 라면을 버려주자.)",
+                "음식물 처리기는 마당에 있다."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 200,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 112000,
+            "ObjName": "음식물 처리기",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "덜컹ㅡ",
+                "콸콸콸...",
+                "(..윽!)",
+                "(저 안은 절대 보면 안된다.)",
+                "덜커덩ㅡ"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1000,
+            "LikeReward": 1
+        }
+    ]
+}

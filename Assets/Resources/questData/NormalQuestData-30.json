@@ -1,0 +1,87 @@
+{
+    "QuestId": 30,
+    "QuestName": "헬린이 김민준",
+    "QuestDescription": "민준아 술먹을래?",
+    "QuestContext": [
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "요즘 민준이 몸 좋아진 거 봤니?:1",
+                "허구한 날 운동하는 거 같던데",
+                "여자친구라도 생겼나?",
+                "신기해.",
+                "어때 한번 물어보고 오는 건?:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 200,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(...흠, 민준이?)",
+                "(할 것도 없는데 민준이한테 한번 물어봐볼까?)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "오 너구나. 흡 잠깐만 여그 즘 만즈바...",
+                "(ㅁ..뭐야)",
+                "오늘 등 조졌어 아 빨리",
+                "(와ㄹㅇ 광배가 야무지네 쩌럿다쩌럿다)",
+                "아 그치? 이 맛에 운동한다니깡?:2",
+                "역시 네가 제일 죻앙:2",
+                "그래서 무슨 일이야?:1",
+                "......"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "뭐야 아니라고?",
+                "싱겁긴:1",
+                "또 뭐 이상한 거 물어보려했지.",
+                "어휴 헛소리말고 관형이 형한테 이거 좀 갖다줘",
+                "우유 사달랬더니 웬 커피우유를 사왔지 뭐야.",
+                "쯧쯔 반품이다~",
+                "(수느피 우유를 얻었다.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 17000,
+            "ObjName": "관형",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "뭐야",
+                "...? 에잉... 헬창녀석",
+                "곱게 받아먹을 것이지...",
+                "알았어",
+                "가는 길에 헬창놈한테 뽀큐 좀 전해줘",
+                "......",
+                "(여자친구는 없는 것 같다)",
+                "(헬린이 김민준 이야기 끝)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1500,
+            "LikeReward": 1
+        }
+    ]
+}

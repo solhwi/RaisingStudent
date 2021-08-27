@@ -1,0 +1,38 @@
+{
+    "QuestId": 32,
+    "QuestName": "나비는 배가 고프다",
+    "QuestDescription": "집 앞에 고양이가 자꾸 운다, 무슨 일 있나?",
+    "QuestContext": [
+        {
+            "ObjId": 15000,
+            "ObjName": "나비",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "매옹...",
+                "매오옹......",
+                "(...왜 그러니 애옹아?)",
+                "애오옹... 애옹..",
+                "(왜 그러지? 배가 고픈가?)",
+                "(나비를 위해 사료를 사오자.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1000,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 15000,
+            "ObjName": "나비",
+            "ItemForTalk": "PETFOOD",
+            "TalkContext": [
+                "애옹! 애옹!",
+                "애오옹!",
+                "(찹찹찹...)",
+                "(찹찹찹...)",
+                "(맛있게 먹네. 다행이다.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 2000,
+            "LikeReward": 0
+        }
+    ]
+}

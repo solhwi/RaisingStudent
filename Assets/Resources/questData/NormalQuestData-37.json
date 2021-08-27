@@ -1,0 +1,23 @@
+{
+    "QuestId": 37,
+    "QuestName": "은서는 꽃을 싫어해",
+    "QuestDescription": "노골적인 건 싫어... 하지만",
+    "QuestContext": [
+        {
+            "ObjId": 23000,
+            "ObjName": "은서",
+            "ItemForTalk": "FLOWER",
+            "TalkContext": [
+                "어머 이게 뭐야?",
+                "너무 노골적인 거 아니야?:1",
+                "이러면 여자들은 싫어한단다 얘야~:2",
+                "그래도 받아는 둘게!:2",
+                "고마워!:2",
+                "(그래도 은서의 기분이 나쁘지만은 않은 것 같다!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 2
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "QuestId": 31,
+    "QuestName": "졸프를 했더니 꽃다발이 올 것인지에 대하여",
+    "QuestDescription": "",
+    "QuestContext": [
+        {
+            "ObjId": 19000,
+            "ObjName": "주훈",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "그럼요 형.",
+                "당연히 가야죠.",
+                "형들이 열심히 졸업프로젝트했는데.",
+                "제가 안 가면 누가 가요.",
+                "(흑흑... 역시 너밖에 없다...)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 200,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 18000,
+            "ObjName": "지민",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "......",
+                "...꼭 갈게요.",
+                "기대되는 것 같아요!"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 100,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "우리 졸프 전시회엔 꼭 애들이 오겠지?:1",
+                "같이 사진도 찍고 그러고 싶어",
+                "벌써 졸업이라니 믿기지 않아.",
+                "(그럼. 우리가 얼마나 친한데!)",
+                "(반드시 올 거야.)",
+                "헤헤 그럼! 꼭 올 거야!!",
+                "그 날엔 이쁘게 하고 가야겠다!!"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "......",
+                "..."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "......",
+                "......",
+                "..."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "다 각자 살 길이 바쁜 것을",
+                "우리의 욕심이 너무 커다랬을 지도 모르겠군",
+                "하하.",
+                "그냥 어서 탈홍하자구 소년소녀들",
+                "......",
+                "...ㅜ",
+                "(졸프를 했더니 꽃다발이 올 것인지에 대하여 끝)"
+            ],
+            "ItemCodeReward": "WORRY",
+            "GoldReward": 2000,
+            "LikeReward": 0
+        }
+    ]
+}

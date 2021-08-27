@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainPage.unity
+    guid: 779308ba1b15fa144b3b34a29ad007f8
+  - enabled: 1
+    path: Assets/Scenes/Home/House.unity
+    guid: e7797f3e75d03a04285a11c89a818038
+  - enabled: 1
+    path: Assets/Scenes/Home/HouseFront.unity
+    guid: caf7ebe9a8e633343a6834ba23c5ed6a
+  - enabled: 1
+    path: Assets/Scenes/University/Tdong1.unity
+    guid: 47a3c9be0c46dc347ba880a59457a610
+  - enabled: 1
+    path: Assets/Scenes/University/Entrance.unity
+    guid: cfda4a25cabfc104d91b99d025a4a0f9
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame1.unity
+    guid: cde69794cd38edc4a9ca6df9f565a6e5
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame2.unity
+    guid: 08ba8bad60b5d2a4588370a942e8fa70
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame3.unity
+    guid: d1a9b036ee1858146b6f321e521bfa7a
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame4.unity
+    guid: 393422e27ff3a1e49b1de32a02da830e
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame5.unity
+    guid: d3374180c22cb4f4c84eced93633094c
+  - enabled: 1
+    path: Assets/Scenes/Home/HallWay1.unity
+    guid: d026d72f151b9e848b506b9c86680074
+  - enabled: 1
+    path: Assets/Scenes/Home/HallWay2.unity
+    guid: 438a1439f17fe6b488fbb17bd6799fe9
+  - enabled: 1
+    path: Assets/Scenes/University/Tdong7.unity
+    guid: 602d73ebc7a9b034c860f59147b7f01a
+  - enabled: 1
+    path: Assets/Scenes/University/Tdong6.unity
+    guid: f0e214f667427f6478b3f9de8a7244dd
+  - enabled: 1
+    path: Assets/Scenes/University/Tdong5.unity
+    guid: d7efde69fe7679b4c89677a152d49c86
+  - enabled: 1
+    path: Assets/Scenes/University/Tdong3.unity
+    guid: 56e4efb8a6e5326408064b6c58bac162
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame6.unity
+    guid: 867f85635a41c5447ab0b31a886c9dc5
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/MiniGame7.unity
+    guid: 5eab04cd30a13d24c9c1242509706902
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/HiddenStage.unity
+    guid: d214d2a638f0f3c46abc2b9b03be7e51
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: e114f0fdb6592fa499feccdf85e90825
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 5f455f606ec070b418887e8aac9342e2
+  - enabled: 1
+    path: Assets/Scenes/Dummy.unity
+    guid: 6e69082eb3a8c4d458a18e7cdc34bfd2
+  - enabled: 1
+    path: Assets/Scenes/Vacation.unity
+    guid: 0df206fa59ff7b743b8291c3c8b25d50
+  m_configObjects: {}

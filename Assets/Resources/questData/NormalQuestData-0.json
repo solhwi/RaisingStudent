@@ -1,0 +1,88 @@
+{
+    "QuestId": 0,
+    "QuestName": "립스틱을 찾아줘!",
+    "QuestDescription": "덜렁이 유진이를 도와주자!",
+    "QuestContext": [
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "어머, 내 립스틱이 어디 갔지?:0",
+                "잉.. 분명 아까까지 있었는데?!:2",
+                "너! 민준이한테 좀 갔다와줘.:1",
+                "아까까지 같이 있었어!:0",
+                "훔쳐 갔을 수도 있어:0"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 0,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "엥 여기 내가 가져간 줄 어떻게 알았지?:0",
+                "자 여기 있어.:0",
+                "...는 거짓말이고, 내가 가져갔을 리가 없잖아!:0",
+                "우린 T동 3층 휴게실에서 공부했었어.:0",
+                "한번 가보는 건 어때?.:0",
+                "엥, 생각해보니 관형이 형도 재수강이라 같이 들었는데??:0",
+                "관형이 형한테 먼저 가보는 게 낫겠다.:0",
+                "(...좋아, 관형이 형한테 가보자.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 17000,
+            "ObjName": "관형",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "이 세상은 반드시 이분법적으로 나눌 수 있어.",
+                "엉? 뭐야?",
+                "립스틱? 리입스틱~??",
+                "리이이이입스틱???",
+                "몰라, 3층 휴게실 가봐.",
+                "탁자에 두고 왔을 수도"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 700,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 109000,
+            "ObjName": "3층 휴게실 탁자",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(오, 립스틱인가?)",
+                "(맞다, 립스틱이다.)",
+                "(여기에 두고 왔었구나.)",
+                "(조그만해서 주머니에서 흘렀나보네.)",
+                "(유진이에게 가져다주자.)"
+            ],
+            "ItemCodeReward": "LIPSTICK",
+            "GoldReward": 700,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "LIPSTICK",
+            "TalkContext": [
+                "오, 어머 찾았어?:0",
+                "어디 있었어??:0",
+                "아아, 휴게실에 있었구나.:0",
+                "정말 고마워! 별건 아니지만 내가 아끼는 어피치 인형이야!:0",
+                "(...엥 웬 어피치 인형이람..?)",
+                "(아무튼 어피치 인형을 받았다!)",
+                "(인벤토리를 확인해보자.)"
+            ],
+            "ItemCodeReward": "APEACH",
+            "GoldReward": 1000,
+            "LikeReward": 2
+        }
+    ]
+}

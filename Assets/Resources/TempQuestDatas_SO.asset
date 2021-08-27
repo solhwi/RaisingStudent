@@ -1,0 +1,743 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93821e2d9582c2f459db067bd1758cb3, type: 3}
+  m_Name: TempQuestDatas_SO
+  m_EditorClassIdentifier: 
+  tempMainQuestDatas:
+  - QuestId: 0
+    QuestName: "\uB3D9\uC544\uB9AC \uAC00\uC785\uD558\uAE30"
+    ObjIds: 204e0000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 1
+    QuestName: "\uB3D9\uC544\uB9AC \uC120\uBC30 \uB9CC\uB098\uAE30"
+    ObjIds: f82a0000803e000068420000d8590000f82a0000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 2
+    QuestName: "\uC120\uBC30\uC5D0\uAC8C \uACFC\uC81C \uBB3C\uC5B4\uBCF4\uAE30"
+    ObjIds: f82a0000d8590000d8590000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 3
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 4
+    QuestName: "\uB178\uD2B8\uBD81 \uB300\uC5EC\uD558\uAE30"
+    ObjIds: 10270000f82a0000c05d0000c05d0000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 5
+    QuestName: "\uB178\uD2B8\uBD81\uC73C\uB85C \uACFC\uC81C\uD558\uAE30"
+    ObjIds: 708e0100708e0100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 6
+    QuestName: "\uCC29\uD55C \uC790\uCDE8\uBC29 \uCE5C\uAD6C\uB4E4"
+    ObjIds: c8320000e02e0000b0360000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 7
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 8
+    QuestName: "\uC9D1\uC548 \uCCAD\uC18C\uD558\uAE30"
+    ObjIds: 708e01005892010040960100289a0100109e0100f8a10100e0a50100708e0100
+    isClear: 0
+    QuestProgress: 3
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 9
+    QuestName: "\uB3D9\uC544\uB9AC \uBAA8\uC784 \uAC00\uAE30!"
+    ObjIds: 10270000803e0000f82a0000d85900006842000010270000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 10
+    QuestName: "\uAE09\uD55C \uACFC\uC81C \uBD88 \uB044\uAE30"
+    ObjIds: 708e0100708e0100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 11
+    QuestName: "\uC5F4\uB78C\uC2E4\uC740 \uC5ED\uC2DC \uB3D9\uAE30\uC640"
+    ObjIds: 708e0100f82a0000c8a90100888a0100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 12
+    QuestName: "\uAD50\uC218\uB2D8\uACFC \uBA74\uB2F4\uD558\uAE30"
+    ObjIds: 204e0000b8820100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 13
+    QuestName: "\uC798\uAC00, \uC774\uAD00\uD615"
+    ObjIds: f82a000068420000f82a000068420000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 14
+    QuestName: "\uD6C4\uBC30 \uB9DE\uC774 \uC900\uBE44\uD558\uAE30"
+    ObjIds: 10270000f82a0000f82a0000204e0000204e0000f82a0000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 15
+    QuestName: "1\uD559\uB144 \uB9C8\uC9C0\uB9C9 \uBCBC\uB77D\uCE58\uAE30!"
+    ObjIds: 888a0100888a0100
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 16
+    QuestName: "\uD6C4\uBC30 \uB9DE\uC774 \uC900\uBE44\uD558\uAE30! \uC2E4\uD589
+      \uD3B8"
+    ObjIds: f82a000010270000f82a0000204e0000204e0000f82a0000
+    isClear: 1
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 17
+    QuestName: "\uB4DC\uB514\uC5B4 \uB9CC\uB09C \uD6C4\uBC30\uB4E4!"
+    ObjIds: 50460000384a000050460000384a0000384a0000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 18
+    QuestName: "\uBE75\uD310 \uBC1B\uAE30"
+    ObjIds: 10270000803e00006842000068420000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 19
+    QuestName: "\uB3CC\uC544\uC628 \uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30!"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 20
+    QuestName: "\uD6C4\uBC30 \uB178\uD2B8\uBD81 \uBE4C\uB824\uC8FC\uAE30"
+    ObjIds: 504600005046000050460000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 21
+    QuestName: "\uACE0\uD559\uBC88\uACFC \uC2E0\uC785\uC0DD PART 1"
+    ObjIds: c05d0000c05d0000d8590000384a0000d8590000c05d0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 22
+    QuestName: "\uC794\uB729 \uBC00\uB9B0 \uACFC\uC81C \uCC98\uB9AC\uD558\uAE30"
+    ObjIds: 708e0100e0a50100e0a50100708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 23
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 24
+    QuestName: "\uB3CC\uC544\uC628 \uB300\uCCAD\uC18C"
+    ObjIds: 708e01005892010040960100289a0100109e0100f8a10100e0a50100708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 25
+    QuestName: "\uB3D9\uC544\uB9AC \uBAA8\uC784 \uAC00\uAE30"
+    ObjIds: 289a01005046000010270000f82a0000384a0000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 26
+    QuestName: "\uB298\uC5B4\uB098\uB294 \uACFC\uC81C \uCC98\uB9AC\uD558\uAE30"
+    ObjIds: 708e0100e0a50100708e0100e0a50100708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 27
+    QuestName: "\uAE09\uD558\uB2E4 \uAE09\uD574! \uBE60\uB978 \uC5F4\uB78C\uC2E4
+      \uBC29\uBB38!"
+    ObjIds: 708e0100f82a000010270000f82a0000888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 28
+    QuestName: "\uAD50\uC218\uB2D8\uACFC\uC758 2\uCC28 \uBA74\uB2F4"
+    ObjIds: 204e0000e87a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 29
+    QuestName: "\uD734\uD559 \uC2E0\uCCAD"
+    ObjIds: f82a000010270000102700005046000050460000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 30
+    QuestName: "\uD604\uC2B9\uC774\uC758 \uC601\uC7A5, \uC57C \uB108\uB3C4 \uAC00??"
+    ObjIds: b0360000c8320000e02e0000b0360000c8320000b0360000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 31
+    QuestName: "2\uD559\uB144 \uB9C8\uC9C0\uB9C9 \uBCBC\uB77D\uCE58\uAE30!"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 32
+    QuestName: "\uBCF5\uD559 \uC900\uBE44\uD558\uAE30"
+    ObjIds: 204e0000c05d0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 33
+    QuestName: "\uC0C8\uB85C\uC6B4 \uB465\uC9C0 \uCC3E\uAE30"
+    ObjIds: b0360000b0360000204e0000204e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 34
+    QuestName: "\uACFC\uC81C\uB294 \uD63C\uC790"
+    ObjIds: 888a0100888a0100708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 35
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 36
+    QuestName: "\uACFC\uC81C\uAC00 \uC4F0\uB7EC\uC9C0\uC9C0 \uC54A\uC544"
+    ObjIds: 888a0100f82a0000f82a0000888a0100708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 37
+    QuestName: "\uCC29\uD558\uACE0 \uBA4B\uC9C4 \uC790\uCDE8\uBC29 \uCE5C\uAD6C\uB4E4"
+    ObjIds: c8320000e02e0000e02e0000c8320000e02e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 38
+    QuestName: "\uD504\uB85C\uC81D\uD2B8 \uACE0\uB974\uAE30"
+    ObjIds: 708e0100f82a0000d8590000109e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 39
+    QuestName: "\uC5F4\uB78C\uC2E4 \uACF5\uBD80\uD558\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 40
+    QuestName: "\uC2E4\uC2B5 \uBCF4\uC870\uC6D0 \uC774\uAD00\uD615"
+    ObjIds: 109e0100684200006842000098b10100684200006842000068420000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 41
+    QuestName: "\uBA40\uD2F0\uBBF8\uB514\uC5B4\uC2E4 \uADFC\uB85C \uC2E0\uCCAD\uD558\uAE30"
+    ObjIds: 10270000f82a0000c05d0000c05d0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 42
+    QuestName: "\uACFC\uC81C\uB294 \uBA40\uBBF8\uC2E4\uC5D0\uC11C!"
+    ObjIds: 888a0100888a01006842000098b10100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 43
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 44
+    QuestName: "\uACFC\uC81C\uAC00 \uC4F0\uB7EC\uC9C0\uC9C0 \uC54A\uC544 \uB9AC\uB9C8\uC2A4\uD130"
+    ObjIds: 888a0100f82a0000f82a000098b10100f82a0000708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 45
+    QuestName: "\uAD50\uC218\uB2D8\uACFC \uBA74\uB2F4\uD558\uAE30 (\uB610)"
+    ObjIds: 204e000000770100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 46
+    QuestName: "\uBA40\uBBF8\uC2E4\uC5D4 \uC2AC\uD508 \uC804\uC124\uC774 \uC788\uC5B4"
+    ObjIds: 98b10100684200006842000068420000708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 47
+    QuestName: "\uC5F4\uB78C\uC2E4 \uACF5\uBD80\uD558\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 48
+    QuestName: "\uC878\uD504 \uD300\uC6D0 \uAD6C\uD558\uAE30"
+    ObjIds: 204e0000f82a0000f82a00001027000010270000f82a0000708e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 49
+    QuestName: "\uC120\uBC30\uB4E4\uC758 \uC878\uC5C5\uC2DD"
+    ObjIds: 1027000068420000803e0000d8590000e87a0100f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 50
+    QuestName: "\uC878\uD504 \uD68C\uC758 + \uACFC\uC81C"
+    ObjIds: 888a0100f82a0000f82a000010270000c8a90100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 51
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 52
+    QuestName: "\uB098\uACBD \uC120\uBC30\uC758 \uCDE8\uC9C1 \uC18C\uC2DD"
+    ObjIds: 708e0100f82a0000803e0000f82a0000803e0000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 53
+    QuestName: "\uBA40\uBBF8\uC2E4 \uADFC\uB85C\uD558\uAE30 - \uB9C8\uC9C0\uB9C9"
+    ObjIds: c05d0000384a000098b10100384a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 54
+    QuestName: "\uC878\uD504 \uC911\uAC04 \uC810\uAC80"
+    ObjIds: 109e0100f82a00001027000010270000e87a010010270000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 55
+    QuestName: "\uC5F4\uB78C\uC2E4 \uACF5\uBD80\uD558\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 56
+    QuestName: "\uD3EC\uD2B8\uD3F4\uB9AC\uC624 \uC900\uBE44\uD558\uAE30"
+    ObjIds: 708e0100109e0100e0a50100109e0100109e0100109e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 57
+    QuestName: "\uC878\uC5C5 \uC568\uBC94 \uC2E0\uCCAD\uD558\uAE30"
+    ObjIds: 10270000f82a000010270000c05d0000c05d000010270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 58
+    QuestName: "\uBAA8\uC758\uBA74\uC811? \uD55C\uBC88 \uD574\uBCFC\uAE4C? PART 1"
+    ObjIds: f82a0000109e0100109e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 59
+    QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 60
+    QuestName: "\uC120\uBC30\uC5D0\uAC8C \uC790\uC18C\uC11C \uCCA8\uC0AD\uBC1B\uAE30"
+    ObjIds: d8590000d8590000d8590000d8590000109e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 61
+    QuestName: "\uAD50\uC218\uB2D8\uACFC\uC758 \uB9C8\uC9C0\uB9C9 \uBA74\uB2F4"
+    ObjIds: 204e0000d07e0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 62
+    QuestName: "\uBAA8\uC758 \uBA74\uC811? \uD55C\uBC88 \uD574\uBCFC\uAE4C? PART
+      2"
+    ObjIds: f82a000098b1010098b1010098b10100f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 63
+    QuestName: "\uC5F4\uB78C\uC2E4 \uACF5\uBD80\uD558\uAE30"
+    ObjIds: 888a0100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  tempNormalQuestDatas:
+  - QuestId: 0
+    QuestName: "\uB9BD\uC2A4\uD2F1\uC744 \uCC3E\uC544\uC918!"
+    ObjIds: 10270000f82a000068420000c8a9010010270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 1
+    QuestName: "\uADF8\uB140\uB294... \uB098\uC758 \uAF43..."
+    ObjIds: b0360000b0360000d8590000d859000068420000d8590000b0360000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 2
+    QuestName: "\uC740\uC9C0\uC758 \uCE7C\uB0A0"
+    ObjIds: c8320000c8320000c8320000e02e0000e02e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 3
+    QuestName: "\uD559\uC0DD\uD68C\uC7A5\uC758 \uADFC\uC2EC"
+    ObjIds: 204e000010270000f82a000068420000204e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 0
+  - QuestId: 4
+    QuestName: "\uD61C\uC815\uC774\uC640 \uB3D9\uC6B0"
+    ObjIds: f82a000008520000f0550000f82a0000f82a000008520000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 1
+    isRepeat: 0
+  - QuestId: 5
+    QuestName: "\uAC71\uC815\uC7C1\uC774 \uAE40\uB098\uACBD"
+    ObjIds: 803e0000d8590000c05d0000d8590000c05d0000c05d0000803e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 1
+    isRepeat: 0
+  - QuestId: 6
+    QuestName: "\uD754\uD558\uB514 \uD754\uD55C \uCEA0\uD37C\uC2A4 \uCEE4\uD50C PART
+      1"
+    ObjIds: 10270000102700001027000010270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 1
+    isRepeat: 0
+  - QuestId: 7
+    QuestName: "\uBB3C\uACFC \uAE30\uB984! \uD61C\uC815\uC774\uC640 \uD559\uC0DD\uD68C\uC7A5
+      PART 1"
+    ObjIds: f82a0000f05500000852000008520000204e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 1
+    isRepeat: 0
+  - QuestId: 8
+    QuestName: "\uD754\uD558\uB514 \uD754\uD55C \uCEA0\uD37C\uC2A4 \uCEE4\uD50C PART
+      2"
+    ObjIds: 102700001027000010270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 2
+    isRepeat: 0
+  - QuestId: 9
+    QuestName: "\uBCF8 \uC870\uAD50\uB294 \uB098\uC05C \uC0AC\uB78C \uC544\uB2D9\uB2C8\uB2E4"
+    ObjIds: c05d0000c05d0000d8590000d8590000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 2
+    isRepeat: 0
+  - QuestId: 10
+    QuestName: "\uBBFC\uC900\uC774\uC758 \uADF8\uB140? PART 1"
+    ObjIds: 10270000f82a000068420000803e0000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 2
+    isRepeat: 0
+  - QuestId: 11
+    QuestName: "\uBBF8\uD305 \uAD70\uB2E8! \uBC1C\uC9C4 \uC900\uBE44!"
+    ObjIds: d8590000d859000008520000204e0000b03600006842000068420000d8590000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 2
+    isRepeat: 0
+  - QuestId: 12
+    QuestName: "\uBB3C\uACFC \uAE30\uB984! \uD61C\uC815\uC774\uC640 \uD559\uC0DD\uD68C\uC7A5
+      PART 2"
+    ObjIds: 204e0000204e0000f0550000f82a0000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 3
+    isRepeat: 0
+  - QuestId: 13
+    QuestName: "\uB098\uACBD\uC774\uC640 \uD55C \uC120\uBC30 \uC774\uC57C\uAE30 PART
+      1"
+    ObjIds: 803e0000803e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 3
+    isRepeat: 0
+  - QuestId: 14
+    QuestName: "\uC9C0\uBBFC\uC774\uC640 \uC5F4\uB78C\uC2E4\uB140 PART 1"
+    ObjIds: 50460000504600005046000050460000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 3
+    isRepeat: 0
+  - QuestId: 15
+    QuestName: "\uD61C\uBBFC\uC774\uC640 \uACE0\uC591\uC774"
+    ObjIds: c05d0000983a0000c05d0000983a0000c05d000068b90100c05d0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 3
+    isRepeat: 0
+  - QuestId: 16
+    QuestName: "\uC74C\uC2DD\uBB3C\uC744 \uBC84\uB9AC\uB294 \uD68D\uAE30\uC801\uC778
+      \uBC29\uBC95"
+    ObjIds: c8320000c832000080b50100109e0100c8320000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 4
+    isRepeat: 0
+  - QuestId: 17
+    QuestName: "\uC9C0\uBBFC\uC774\uC640 \uC5F4\uB78C\uC2E4\uB140 PART 2"
+    ObjIds: 50460000504600005046000050460000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 4
+    isRepeat: 0
+  - QuestId: 18
+    QuestName: "\uB098\uACBD\uC774\uC640 \uD55C \uC120\uBC30 \uC774\uC57C\uAE30 PART
+      2"
+    ObjIds: 803e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 4
+    isRepeat: 0
+  - QuestId: 19
+    QuestName: "\uC778\uAC04 \uAD00\uACC4\uB860"
+    ObjIds: f82a0000f82a0000684200001027000010270000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 4
+    isRepeat: 0
+  - QuestId: 20
+    QuestName: "\uBBFC\uC900\uC774\uC758 \uADF8\uB140?! PART 2"
+    ObjIds: f82a000068420000803e0000f82a0000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 5
+    isRepeat: 0
+  - QuestId: 21
+    QuestName: "\uD574\uD53C \uD560\uB85C\uC708"
+    ObjIds: 1027000010270000d8590000c05d00001027000098b1010010270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 5
+    isRepeat: 0
+  - QuestId: 22
+    QuestName: "\uB098\uACBD\uC774\uC640 \uD55C \uC120\uBC30 \uC774\uC57C\uAE30 PART
+      3"
+    ObjIds: 803e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 5
+    isRepeat: 0
+  - QuestId: 23
+    QuestName: "\uAD00\uD615\uC774\uC758 \uB77D(Rock) \uB3C4\uC804\uAE30 PART 1"
+    ObjIds: 68420000684200000852000068420000f82a000068420000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 5
+    isRepeat: 0
+  - QuestId: 24
+    QuestName: "\uCEE4\uD53C\uB294 \uB2F9\uC5F0\uD788 \uC544\uBA54\uB9AC\uCE74\uB178\uC9C0!"
+    ObjIds: 1027000010270000f82a00006842000008520000f055000010270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 6
+    isRepeat: 0
+  - QuestId: 25
+    QuestName: "\uD55C \uB2E8\uCCB4\uC758 \uC218\uC7A5\uC740 \uBA38\uB9AC\uB97C \uC870\uC544\uB824\uC120
+      \uC548\uB3FC"
+    ObjIds: 10270000803e0000f82a0000f82a0000d8590000803e000068420000f82a0000f82a0000c05d0000f82a000068420000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 6
+    isRepeat: 0
+  - QuestId: 26
+    QuestName: "\uAC74\uAC15\uD55C \uC0B6\uC744 \uC0B4\uC790"
+    ObjIds: f05500001027000010270000f82a0000f82a0000f82a0000f82a0000f0550000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 6
+    isRepeat: 0
+  - QuestId: 27
+    QuestName: "\uAD00\uD615\uC774\uC758 \uB77D(ROCK) \uB3C4\uC804\uAE30 PART 2"
+    ObjIds: 10270000f82a0000d859000068420000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 6
+    isRepeat: 0
+  - QuestId: 28
+    QuestName: "\uB2D8\uC544, \uADF8 \uAC15\uC744 \uAC74\uB108\uC9C0 \uB9C8\uC624."
+    ObjIds: f82a0000f055000010270000a086010010270000f0550000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 7
+    isRepeat: 0
+  - QuestId: 29
+    QuestName: "\uC9C1\uC7A5\uC778 \uC740\uC9C0\uC758 \uACE0\uBBFC"
+    ObjIds: c8320000e02e0000c8320000c8320000e02e0000e02e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 7
+    isRepeat: 0
+  - QuestId: 30
+    QuestName: "\uD5EC\uB9B0\uC774 \uAE40\uBBFC\uC900"
+    ObjIds: 1027000010270000f82a0000f82a000068420000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 7
+    isRepeat: 0
+  - QuestId: 31
+    QuestName: "\uC878\uD504\uB97C \uD588\uB354\uB2C8 \uAF43\uB2E4\uBC1C\uC774 \uC62C
+      \uAC83\uC778\uC9C0\uC5D0 \uB300\uD558\uC5EC"
+    ObjIds: 384a00005046000010270000f82a000010270000f82a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 7
+    isRepeat: 0
+  - QuestId: 32
+    QuestName: "\uB098\uBE44\uB294 \uBC30\uAC00 \uACE0\uD504\uB2E4"
+    ObjIds: 983a0000983a0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 1
+  - QuestId: 33
+    QuestName: "\uBC15\uCEE4\uC2A4 \uBB34\uB8CC \uB098\uB214"
+    ObjIds: 10270000f82a0000f055000008520000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 1
+  - QuestId: 34
+    QuestName: "\uC720\uBE48\uC774\uC758 \uADFC\uC2EC"
+    ObjIds: e02e0000e02e000080b50100
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 1
+  - QuestId: 35
+    QuestName: "\uC720\uC9C4\uC774\uB294 \uC778\uD615\uC744 \uC88B\uC544\uD574"
+    ObjIds: 10270000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 1
+  - QuestId: 36
+    QuestName: "\uB098\uACBD\uC774\uB294 \uD56D\uC0C1 \uD53C\uACE4\uD574"
+    ObjIds: 803e0000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 1
+  - QuestId: 37
+    QuestName: "\uC740\uC11C\uB294 \uAF43\uC744 \uC2EB\uC5B4\uD574"
+    ObjIds: d8590000
+    isClear: 0
+    QuestProgress: 0
+    totalGradeProgress: 0
+    isRepeat: 1

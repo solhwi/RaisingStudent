@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6167445149251540348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6167445149251540351}
+  - component: {fileID: 6167445150109441989}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6167445149251540351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167445149251540348}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6167445150109441989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167445149251540348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a751fe8ec26bc14689d7c94247ad0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questManager: {fileID: 3487530344425703981, guid: 6a848d770fc49a441b187347ef353ef5,
+    type: 3}
+  talkManager: {fileID: 33241607482899148, guid: 0b9731ed98ec6ae4f87ce36a1b393e98,
+    type: 3}
+  itemManager: {fileID: 0}
+  scanObject: {fileID: 0}
+  talkPanel: {fileID: 6019476709747580517, guid: 6a5f35e4ce56c344d9d1d4755d0c2aaf,
+    type: 3}
+  illustImg: {fileID: 9133324667598252104, guid: 1f386dcdbe0db5b409f3beb3ec24a157,
+    type: 3}
+  talkText: {fileID: 7472912608245862375, guid: 69be767790d4ee443a13057b06f19c1b,
+    type: 3}
+  npcname: {fileID: 4444901045863728787, guid: ee09d8dfa68ab104ea90f0fd8634c467, type: 3}
+  player: {fileID: 2608403935024944300, guid: dbfd18bd74e69654ea5417b8dadf7209, type: 3}
+  Menu: {fileID: 4599237355369315776, guid: 725120683d2996b46b6cc312a12fa1c4, type: 3}
+  isTalk: 0
+  talkIndex: 0

@@ -1,0 +1,97 @@
+{
+    "QuestId": 28,
+    "QuestName": "님아, 그 강을 건너지 마오.",
+    "QuestDescription": "말년에 재수강이라니...",
+    "QuestContext": [
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "옛날옛날 어느 한 옛날에...",
+                "말년에 논리회로를 듣는 멍청이가 있었습니다.",
+                "그의 이름은... 어 거기 있었니?ㅋ",
+                "...",
+                "어휴 누가 4학년에 논리회로를 듣냐?!",
+                "(ㅠ..)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 22000,
+            "ObjName": "주훈",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "...",
+                "그럴 수 있죠.",
+                "4학년에 2학년 과목을 들으면 잘 할거 아니에요.",
+                "다 그걸 노린 거니까."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "나 열람실 책상에서 내 책좀 갖다주라",
+                "어차피 너 논리회로 들으러 그 쪽 가야 되잖아!:2",
+                "(...)",
+                "ㅋㅋ:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 100000,
+            "ObjName": "3층 열람실 책상",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "(유진이 책이다.)",
+                "(......)",
+                "(갖다주자.)"
+            ],
+            "ItemCodeReward": "BOOK",
+            "GoldReward": 0,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "BOOK",
+            "TalkContext": [
+                "아 고마워~:2",
+                "내년엔 재수강을 못해서 아쉽네~!!!!:2",
+                "깔깔~:2",
+                "(......)",
+                "(ㅠ나쁜놈)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 1200,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 22000,
+            "ObjName": "주훈",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "형 시험 잘 봤어요?",
+                "......",
+                "그렇군요.",
+                "4학년이라고 꼭 잘보는 건 아니군요.",
+                "깨달음을 얻었어요.",
+                "고마워요 형!",
+                "(......)",
+                "(님아 그 강을 건너지마오 끝)"
+            ],
+            "ItemCodeReward": "WORRY",
+            "GoldReward": 1000,
+            "LikeReward": 1
+        }
+    ]
+}

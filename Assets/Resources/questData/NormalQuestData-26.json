@@ -1,0 +1,134 @@
+{
+    "QuestId": 26,
+    "QuestName": "건강한 삶을 살자",
+    "QuestDescription": "",
+    "QuestContext": [
+        {
+            "ObjId": 22000,
+            "ObjName": "혜정",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "흠, 요즘 몸이 찌뿌둥하단말이지.",
+                "좀 더 건강한 삶을 살아야할 것 같은 기분이 들어.",
+                "사람들을 모아서 운동 톡방이라도 만드는 건 어때?",
+                "헐 진짜 좋은 생각인데??",
+                "너! 얼른 모아와봐!!",
+                "(...?!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "응? 운동?:1",
+                "흐음...",
+                "나쁘지 않은걸?:2",
+                "누구누구 있는데?:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 200,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 10000,
+            "ObjName": "유진",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "혜정이?",
+                "음.. 좋아!:2",
+                "그럼 몇 명만 더 모아줘.",
+                "두명 정도만 더 모이면 나도 참가할래!",
+                "민준이를 꼬셔보는 건 어때?:2"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 300,
+            "LikeReward": 1
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "민준",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "음?:1",
+                "음 또 무슨 쓸데없는 얘길 하려구?",
+                "운동?",
+                "오 너가 무슨 일로 운동이야",
+                "나쁘지 않은걸?",
+                "난 무조건 찬성이야. 어디 한번 만들어봐.",
+                "(오! 의외로 민준이가 순순히 받아들였다.)",
+                "(다음은 나경 누나다!)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "나경",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "......",
+                "...뭐?",
+                "운동...?",
+                "...",
+                "해볼까?"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "나경",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "대신 조건이 있어.",
+                "나 지금 너무 목이 말라...",
+                "박커스 하나만 사다줄래?",
+                "쿨럭",
+                "(......)",
+                "(진짜 목이 말라보이긴 한다.)",
+                "(나경 누나를 위해 박커스를 사오자.)"
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 11000,
+            "ObjName": "나경",
+            "ItemForTalk": "BAKKAS",
+            "TalkContext": [
+                "아.. 정말 고마워.",
+                "죽을 뻔 했어.",
+                "톡방 만들면 알려줘."
+            ],
+            "ItemCodeReward": "",
+            "GoldReward": 500,
+            "LikeReward": 0
+        },
+        {
+            "ObjId": 22000,
+            "ObjName": "혜정",
+            "ItemForTalk": "",
+            "TalkContext": [
+                "뭐야! 벌써 다 모아왔어??:1",
+                "너 생각보다 인싸잖아?",
+                "좋아. 그럼 오늘부터 열심히 하는 거야!!:2",
+                "아자!!:2",
+                "(아자!!)",
+                "......",
+                "...",
+                "(혜정이는 그 이후로 보이지 않았다.)",
+                "(건강한 삶을 살자 끝)"
+            ],
+            "ItemCodeReward": "WORRY",
+            "GoldReward": 2500,
+            "LikeReward": 0
+        }
+    ]
+}
