@@ -52,6 +52,11 @@ public class MiniGameSlider : MonoBehaviour
                 fillRatePerSec = 17;
                 break;
         }
+
+        if (PlayerDataMgr.playerData_SO.totalGradeProgress == 0 && PlayerDataMgr.playerData_SO.dayProgress < 2)
+        {
+            fillRatePerSec = 15;
+        }
     }
 
     public void ResetFillRate()

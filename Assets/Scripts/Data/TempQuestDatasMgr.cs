@@ -52,14 +52,29 @@ public class TempQuestDatasMgr
 
         tempQuestDatas_SO.tempMainQuestDatas.Clear();
         tempQuestDatas_SO.tempNormalQuestDatas.Clear();
+        
+        TempQuestDatas tmp = new TempQuestDatas(); 
+
+        for (int i = 0; i < QuestPersisData.tempNormalQuestDatas.Count; i++)
+        {
+            QuestPersisData.tempNormalQuestDatas[i].ObjIds = tmp.tempNormalQuestDatas[i].ObjIds;
+            tempQuestDatas_SO.tempNormalQuestDatas.Add(QuestPersisData.tempNormalQuestDatas[i]);
+        }
+
+        for(int i=0; i< QuestPersisData.tempMainQuestDatas.Count; i++)
+        {
+            QuestPersisData.tempMainQuestDatas[i].ObjIds = tmp.tempMainQuestDatas[i].ObjIds;
+            tempQuestDatas_SO.tempMainQuestDatas.Add(QuestPersisData.tempMainQuestDatas[i]);
+        }
 
         foreach (TempQuestData t in QuestPersisData.tempNormalQuestDatas)
         {
-            tempQuestDatas_SO.tempNormalQuestDatas.Add(t);
+           
         }
+
         foreach (TempQuestData t in QuestPersisData.tempMainQuestDatas)
         {
-            tempQuestDatas_SO.tempMainQuestDatas.Add(t);
+            //tempQuestDatas_SO.tempMainQuestDatas.Add(t);
         }
 
         Debug.Log("QuestDataMgr: PLAYER_DATA (PERSIS->CACHE) COMPLETE \n " + path);

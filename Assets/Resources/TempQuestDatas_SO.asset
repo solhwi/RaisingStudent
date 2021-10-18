@@ -16,112 +16,112 @@ MonoBehaviour:
   - QuestId: 0
     QuestName: "\uB3D9\uC544\uB9AC \uAC00\uC785\uD558\uAE30"
     ObjIds: 204e0000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 1
     QuestName: "\uB3D9\uC544\uB9AC \uC120\uBC30 \uB9CC\uB098\uAE30"
     ObjIds: f82a0000803e000068420000d8590000f82a0000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 2
     QuestName: "\uC120\uBC30\uC5D0\uAC8C \uACFC\uC81C \uBB3C\uC5B4\uBCF4\uAE30"
     ObjIds: f82a0000d8590000d8590000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 3
     QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
     ObjIds: 888a0100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 4
     QuestName: "\uB178\uD2B8\uBD81 \uB300\uC5EC\uD558\uAE30"
     ObjIds: 10270000f82a0000c05d0000c05d0000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 5
-    QuestName: "\uB178\uD2B8\uBD81\uC73C\uB85C \uACFC\uC81C\uD558\uAE30"
+    QuestName: "\uC9D1 \uCEF4\uD4E8\uD130\uB85C \uACFC\uC81C\uD558\uAE30"
     ObjIds: 708e0100708e0100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 6
     QuestName: "\uCC29\uD55C \uC790\uCDE8\uBC29 \uCE5C\uAD6C\uB4E4"
     ObjIds: c8320000e02e0000b0360000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 7
     QuestName: "\uC5F4\uB78C\uC2E4 \uBCBC\uB77D\uCE58\uAE30"
     ObjIds: 888a0100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 8
     QuestName: "\uC9D1\uC548 \uCCAD\uC18C\uD558\uAE30"
-    ObjIds: 708e01005892010040960100289a0100109e0100f8a10100e0a50100708e0100
-    isClear: 0
-    QuestProgress: 3
+    ObjIds: 708e01005892010040960100289a0100708e0100f8a10100e0a50100708e0100
+    isClear: 1
+    QuestProgress: 8
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 9
     QuestName: "\uB3D9\uC544\uB9AC \uBAA8\uC784 \uAC00\uAE30!"
     ObjIds: 10270000803e0000f82a0000d85900006842000010270000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 10
     QuestName: "\uAE09\uD55C \uACFC\uC81C \uBD88 \uB044\uAE30"
     ObjIds: 708e0100708e0100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 11
     QuestName: "\uC5F4\uB78C\uC2E4\uC740 \uC5ED\uC2DC \uB3D9\uAE30\uC640"
     ObjIds: 708e0100f82a0000c8a90100888a0100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 12
     QuestName: "\uAD50\uC218\uB2D8\uACFC \uBA74\uB2F4\uD558\uAE30"
     ObjIds: 204e0000b8820100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 13
     QuestName: "\uC798\uAC00, \uC774\uAD00\uD615"
     ObjIds: f82a000068420000f82a000068420000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 14
     QuestName: "\uD6C4\uBC30 \uB9DE\uC774 \uC900\uBE44\uD558\uAE30"
     ObjIds: 10270000f82a0000f82a0000204e0000204e0000f82a0000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
   - QuestId: 15
     QuestName: "1\uD559\uB144 \uB9C8\uC9C0\uB9C9 \uBCBC\uB77D\uCE58\uAE30!"
     ObjIds: 888a0100888a0100
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
     QuestName: "\uD6C4\uBC30 \uB9DE\uC774 \uC900\uBE44\uD558\uAE30! \uC2E4\uD589
       \uD3B8"
     ObjIds: f82a000010270000f82a0000204e0000204e0000f82a0000
-    isClear: 1
+    isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
     isRepeat: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 24
     QuestName: "\uB3CC\uC544\uC628 \uB300\uCCAD\uC18C"
-    ObjIds: 708e01005892010040960100289a0100109e0100f8a10100e0a50100708e0100
+    ObjIds: 708e01005892010040960100289a0100708e0100f8a10100e0a50100708e0100
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 38
     QuestName: "\uD504\uB85C\uC81D\uD2B8 \uACE0\uB974\uAE30"
-    ObjIds: 708e0100f82a0000d8590000109e0100
+    ObjIds: 708e0100f82a0000d8590000708e0100
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 40
     QuestName: "\uC2E4\uC2B5 \uBCF4\uC870\uC6D0 \uC774\uAD00\uD615"
-    ObjIds: 109e0100684200006842000098b10100684200006842000068420000
+    ObjIds: 708e0100684200006842000098b10100684200006842000068420000
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -395,7 +395,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 54
     QuestName: "\uC878\uD504 \uC911\uAC04 \uC810\uAC80"
-    ObjIds: 109e0100f82a00001027000010270000e87a010010270000f82a0000
+    ObjIds: 708e0100f82a00001027000010270000e87a010010270000f82a0000
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -409,7 +409,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 56
     QuestName: "\uD3EC\uD2B8\uD3F4\uB9AC\uC624 \uC900\uBE44\uD558\uAE30"
-    ObjIds: 708e0100109e0100e0a50100109e0100109e0100109e0100
+    ObjIds: 708e0100708e0100e0a50100708e0100708e0100708e0100
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 58
     QuestName: "\uBAA8\uC758\uBA74\uC811? \uD55C\uBC88 \uD574\uBCFC\uAE4C? PART 1"
-    ObjIds: f82a0000109e0100109e0100
+    ObjIds: f82a0000708e0100708e0100
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
     isRepeat: 0
   - QuestId: 60
     QuestName: "\uC120\uBC30\uC5D0\uAC8C \uC790\uC18C\uC11C \uCCA8\uC0AD\uBC1B\uAE30"
-    ObjIds: d8590000d8590000d8590000d8590000109e0100
+    ObjIds: d8590000d8590000d8590000d8590000708e0100
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 0
@@ -585,7 +585,7 @@ MonoBehaviour:
   - QuestId: 16
     QuestName: "\uC74C\uC2DD\uBB3C\uC744 \uBC84\uB9AC\uB294 \uD68D\uAE30\uC801\uC778
       \uBC29\uBC95"
-    ObjIds: c8320000c832000080b50100109e0100c8320000
+    ObjIds: c8320000c832000080b50100708e0100c8320000
     isClear: 0
     QuestProgress: 0
     totalGradeProgress: 4

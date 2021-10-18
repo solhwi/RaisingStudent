@@ -70,6 +70,8 @@ public class MiniGame3 : MonoBehaviour
                 getTime = 7; increaseTime = 3f; clearCount = 5;
                 break;
         }
+
+
     }
 
     public void Hiding_Images(bool hiding)

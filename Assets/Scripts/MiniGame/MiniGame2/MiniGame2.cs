@@ -46,6 +46,11 @@ public class MiniGame2 : MonoBehaviour
                 getTime = 15;
                 break;
         }
+
+        if (PlayerDataMgr.playerData_SO.totalGradeProgress == 0 && PlayerDataMgr.playerData_SO.dayProgress < 2)
+        {
+            InstantiateTime = 0.3f;
+        }
     }
 
     void Update()

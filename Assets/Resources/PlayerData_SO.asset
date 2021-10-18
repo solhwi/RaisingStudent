@@ -15,87 +15,28 @@ MonoBehaviour:
   username: 
   isStudied: 0
   isFoundHidden: 0
-  totalGradeProgress: 1
-  dayProgress: 2
+  totalGradeProgress: 0
+  dayProgress: 0
   stageProgress: 0
-  mainQuestProgress: 8
+  mainQuestProgress: 0
   isEndedGrade: 0
   isFailed: 0
   love: 0
   girlfriendId: -1
-  isEndedTutorial: 1
-  tutorial_progress: 2
+  isEndedTutorial: 0
+  tutorial_progress: 0
   attendCount: 0
   clearCount: 0
   isMan: 1
-  currProfessorIdx: 0
-  currentMapName: MainPage
+  currProfessorIdx: 1
+  currentMapName: Prologue
   prevMapName: House
-  gold: 94700
-  satisfact: 41
+  gold: 5000
+  satisfact: 30
   hungryGazy: 100
-  grades: 0100000004000000030000000200000003000000020000000200000001000000
-  haveConsumeItems:
-  - item:
-      sprite: {fileID: 21300000, guid: 143e30791a8323e4f8305524043cb128, type: 3}
-      code: CAKE
-      name: "\uB9DB\uC788\uB294 \uCF00\uC774\uD06C"
-      description: "\uC0B4\uC0B4 \uB179\uB124! \uB2EC\uB2EC\uD55C \uCF00\uC774\uD06C!
-        \uD53C\uB85C\uB3C4\uAC00.. \uCC30\uAE4C?"
-      price: 5000
-      healAmount: 5
-    count: 4
-  - item:
-      sprite: {fileID: 21300000, guid: e6d281ee1a5f8e34cae9e3a8ec39243d, type: 3}
-      code: SNOOPY
-      name: "\uC218\uB290\uD53C \uC6B0\uC720"
-      description: "\uBA39\uC73C\uBA74 \uC808\uB300 \uC7A0\uC774 \uC624\uC9C0 \uC54A\uB294
-        \uBE44\uC57D! \uD53C\uB85C\uB3C4 +15"
-      price: 3000
-      healAmount: 15
-    count: 2
-  - item:
-      sprite: {fileID: 21300000, guid: 59d3e983f161e7842b8ee638b57742ca, type: 3}
-      code: AMERICANO
-      name: "\uC544\uBA54\uB9AC\uCE74\uB178"
-      description: "\uC544\uBA54\uB9AC\uCE74\uB178~ \uC88B\uC544~! \uD53C\uB85C\uB3C4
-        +18"
-      price: 3500
-      healAmount: 18
-    count: 1
-  haveOtherItems:
-  - item:
-      sprite: {fileID: 21300000, guid: f9c60d41376ffff48a92743f707c3a46, type: 3}
-      code: DRDUCKS
-      name: "\uB2E5\uD130\uB3C5\uC2A4"
-      description: "\uAE30\uD0C0 \uB2E6\uC774\uC5D4 \uC5ED\uC2DC \uB2E5\uD130\uB3C5\uC2A4\uC9C0!"
-      price: 2500
-      healAmount: 0
-    count: 1
-  - item:
-      sprite: {fileID: 21300000, guid: 2833f979a436f4f4ba25487008497814, type: 3}
-      code: WORRY
-      name: "\uB05D\uC5C6\uB294 \uBD88\uC548"
-      description: "\uB300\uD559\uC0DD\uC758 \uB05D\uC5C6\uB294 \uBD88\uC548..."
-      price: 0
-      healAmount: 0
-    count: 1
-  - item:
-      sprite: {fileID: 21300000, guid: 7a2d1c64591c44f45b320258dad022bc, type: 3}
-      code: BOOK
-      name: "\uCC45"
-      description: "\uC544\uC8FC \uB450\uAECD\uAD6C\uB098..."
-      price: 10000
-      healAmount: 0
-    count: 1
-  - item:
-      sprite: {fileID: 21300000, guid: 9885a9d93f30d6445aa437c83b70a659, type: 3}
-      code: TISSUE
-      name: "\uBB3C\uD2F0\uC288"
-      description: "\uCCAD\uC18C! \uB9CC\uB2A5! \uBB3C\uD2F0\uC288!"
-      price: 2000
-      healAmount: 0
-    count: 2
+  grades: 0000000000000000000000000000000000000000000000000000000000000000
+  haveConsumeItems: []
+  haveOtherItems: []
   haveBadgeItems:
   - item:
       sprite: {fileID: 21300000, guid: a33894402bacce040856b86b47bef6e6, type: 3}
@@ -189,4 +130,4 @@ MonoBehaviour:
   - id: 96000
     like: 0
   challengeQuestCounts: 000000000000000000000000000000000000000000000000
-  endingList: 010000000100010001
+  endingList: 000000000000000000

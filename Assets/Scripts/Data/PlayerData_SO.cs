@@ -38,7 +38,6 @@ public class PlayerData_SO : ScriptableObject
     public List<NPCLike> npcLikes = new List<NPCLike>();
     public List<ProfessorLike> professorLikes = new List<ProfessorLike>();
     public List<int> challengeQuestCounts = new List<int>();
-
     public List<bool> endingList = new List<bool>();
 
     public int GetDayOfWeek() => dayProgress % 3;

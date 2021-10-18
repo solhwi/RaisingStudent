@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Pause : MonoBehaviour
 {
     public GameObject Menu;
+    public GameObject Help;
 
     public void OnClickPause()
     {
@@ -21,10 +22,7 @@ public class Pause : MonoBehaviour
     public void OnClickSave()
     {
         SFXMgr.Instance.Play_SFX(SFXMgr.SFXName.button);
-        PlayerDataMgr.Sync_Persis_To_Cache();
-        TempQuestDatasMgr.Sync_Persis_To_Cache();
-        Menu.SetActive(!Menu.activeSelf);
-        SceneLoader.Instance.LoadScene("MainPage");
+        Help.SetActive(true);
     }
 
     public void OnClickExit()

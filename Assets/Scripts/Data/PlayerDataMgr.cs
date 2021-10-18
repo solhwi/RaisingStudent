@@ -62,14 +62,32 @@ public class PlayerDataMgr
         playerData_SO.endingList.Clear();
 
         foreach (int c in playerPersisData.grades) playerData_SO.grades.Add(c);
-        foreach (HaveItemData d in playerPersisData.haveConsumeItems) playerData_SO.haveConsumeItems.Add(d);
-        foreach (HaveItemData d in playerPersisData.haveOtherItems) playerData_SO.haveOtherItems.Add(d);
+        foreach (HaveItemData d in playerPersisData.haveConsumeItems)
+        {
+            ItemData i = GenericDataMgr.genericData_SO.GetItemByCode(d.item.code);
 
-        foreach (HaveItemData d in playerPersisData.haveBadgeItems) playerData_SO.haveBadgeItems.Add(d);
+            d.item.sprite = i.sprite;
 
+            playerData_SO.haveConsumeItems.Add(d);
+        }
+        foreach (HaveItemData d in playerPersisData.haveOtherItems)
+        {
+            ItemData i = GenericDataMgr.genericData_SO.GetItemByCode(d.item.code);
+
+            d.item.sprite = i.sprite;
+            playerData_SO.haveOtherItems.Add(d);
+        }
+        foreach (HaveItemData d in playerPersisData.haveBadgeItems)
+        {
+            ItemData i = GenericDataMgr.genericData_SO.GetItemByCode(d.item.code);
+
+            d.item.sprite = i.sprite;
+            playerData_SO.haveBadgeItems.Add(d);
+        }
         foreach (NPCLike n in playerPersisData.npcLikes) playerData_SO.npcLikes.Add(n);
         foreach (ProfessorLike p in playerPersisData.professorLikes) playerData_SO.professorLikes.Add(p);
         foreach (int i in playerPersisData.challengeQuestCounts) playerData_SO.challengeQuestCounts.Add(i);
+        foreach (bool b in playerPersisData.endingList) playerData_SO.endingList.Add(b);
 
         playerData_SO.totalGradeProgress = playerPersisData.totalGradeProgress;
         playerData_SO.stageProgress = playerPersisData.stageProgress;
@@ -91,7 +109,6 @@ public class PlayerDataMgr
         playerData_SO.girlfriendId = playerPersisData.girlfriendId;
         playerData_SO.currProfessorIdx = playerPersisData.currProfessorIdx;
         playerData_SO.isFailed = playerPersisData.isFailed;
-        playerData_SO.endingList = playerPersisData.endingList;
         playerData_SO.isStudied = playerPersisData.isStudied;
         playerData_SO.isFoundHidden = playerPersisData.isFoundHidden;
 
@@ -121,6 +138,7 @@ public class PlayerDataMgr
         foreach (NPCLike n in playerData_SO.npcLikes) playerPersisData.npcLikes.Add(n);
         foreach (ProfessorLike p in playerData_SO.professorLikes) playerPersisData.professorLikes.Add(p);
         foreach (int i in playerData_SO.challengeQuestCounts) playerPersisData.challengeQuestCounts.Add(i);
+        foreach (bool b in playerData_SO.endingList) playerPersisData.endingList.Add(b);
 
         playerPersisData.totalGradeProgress = playerData_SO.totalGradeProgress;
         playerPersisData.stageProgress = playerData_SO.stageProgress;
@@ -142,7 +160,6 @@ public class PlayerDataMgr
         playerPersisData.girlfriendId = playerData_SO.girlfriendId;
         playerPersisData.currProfessorIdx = playerData_SO.currProfessorIdx;
         playerPersisData.isFailed = playerData_SO.isFailed;
-        playerPersisData.endingList = playerData_SO.endingList;
         playerPersisData.isStudied = playerData_SO.isStudied;
         playerPersisData.isFoundHidden = playerData_SO.isFoundHidden;
 

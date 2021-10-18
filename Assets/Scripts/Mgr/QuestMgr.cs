@@ -52,7 +52,7 @@ public class QuestMgr : MonoBehaviour
         switch (questType)
         {
             case (QuestType.main):
-                PlayerDataMgr.playerData_SO.UseHungryGazy(100);
+                PlayerDataMgr.playerData_SO.UseHungryGazy(70);
                 TempQuestDatasMgr.tempQuestDatas_SO.tempMainQuestDatas[questIndex].isClear = true;
                 break;
             case (QuestType.normal):
@@ -80,7 +80,7 @@ public class QuestMgr : MonoBehaviour
                 break;
             case (QuestType.normal):
             case (QuestType.repeat):
-                PlayerDataMgr.playerData_SO.UseHungryGazy(25);
+                PlayerDataMgr.playerData_SO.UseHungryGazy(15);
                 TempQuestDatasMgr.tempQuestDatas_SO.tempNormalQuestDatas[questIndex].QuestProgress++;
                 break;
         }

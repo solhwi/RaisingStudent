@@ -79,6 +79,10 @@ public class MiniGame5 : MonoBehaviour
                 getTime = 21;
                 break;
         }
+        if (PlayerDataMgr.playerData_SO.totalGradeProgress == 0 && PlayerDataMgr.playerData_SO.dayProgress < 2)
+        {
+            getTime = 25;
+        }
     }
 
     public void OnClick_Word(int index)

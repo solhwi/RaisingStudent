@@ -79,9 +79,36 @@ public class PlayerData
         haveConsumeItems.Clear();
         haveOtherItems.Clear();
         haveBadgeItems.Clear();
-        endingList.Clear();
 
-        for (int i = 0; i < 9; i++) endingList.Add(false);
+        if (endingList.Count > 0)
+        {
+            for (int i = 0; i < PlayerDataMgr.playerData_SO.endingList.Count; i++)
+            {
+                if (endingList[i] == true)
+                {
+                    endingList = PlayerDataMgr.playerData_SO.endingList;
+                    break;
+                }
+                else if (i == PlayerDataMgr.playerData_SO.endingList.Count - 1)
+                {
+                    endingList.Clear();
+                    for (int j = 0; j < 9; j++)
+                    {
+                        endingList.Add(false);
+                    }
+                }
+            }
+        }
+        else
+        {
+            endingList.Clear();
+            for (int j = 0; j < 9; j++)
+            {
+                endingList.Add(false);
+            }
+        }
+
+
         for (int i = 0; i < 8; i++) grades.Add(0);
         for (int i = 0; i < GenericDataMgr.genericData_SO.FixedChallengeQuestCount; i++) haveBadgeItems.Add(new HaveItemData(GenericDataMgr.genericData_SO.GetItemByCode("BADGE" + i.ToString())));
         for (int i = 0; i < GenericDataMgr.genericData_SO.FixedNPCCount; i++) npcLikes.Add(new NPCLike(10000 + i * 1000));

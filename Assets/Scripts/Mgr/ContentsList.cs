@@ -64,6 +64,36 @@ public class ContentsList : MonoBehaviour
         PlayerDataMgr.playerData_SO.stageProgress++; // 스테이지 증가
         PlayerDataMgr.playerData_SO.currProfessorIdx = stageData.stageOrder[PlayerDataMgr.playerData_SO.stageProgress % 26] % 4; // 교수 리셋
 
+
+        if (stageData.stageOrder[PlayerDataMgr.playerData_SO.stageProgress % 26] == 6)
+        {
+            int professoridx = 0;
+
+            switch (PlayerDataMgr.playerData_SO.totalGradeProgress)
+            {
+                case 0:
+                case 6:
+                    professoridx = 3;
+                    break;
+                case 1:
+                case 4:
+                    professoridx = 1;
+                    break;
+                case 2:
+                case 3:
+                    professoridx = 2;
+                    break;
+                case 5:
+                case 7:
+                    professoridx = 0;
+                    break;
+                default:
+                    break;
+            }
+
+            PlayerDataMgr.playerData_SO.currProfessorIdx = professoridx;
+        }
+
         SFXMgr.Instance.Play_SFX(SFXMgr.SFXName.chime);
         SceneLoader.Instance.LoadScene(currentMapName);
     }

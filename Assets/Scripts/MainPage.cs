@@ -20,10 +20,16 @@ public class MainPage : MonoBehaviour
     [SerializeField] List<Sprite> ending_sprites;
     public List<string> description = new List<string>();
 
+    [SerializeField] GameObject beginnerPage;
     [SerializeField] public GameObject uicanvas;
+    [SerializeField] public Text beginnerText;
 
     void Start()
     {
+        if (PlayerDataMgr.isPlayerDataExist())
+        {
+            PlayerDataMgr.Sync_Persis_To_Cache();
+        }
         GameSet();
     }
 
@@ -54,30 +60,46 @@ public class MainPage : MonoBehaviour
     {
         switch (input.text)
         {
+            // ABC(); ABC() abc;
             case "RESET();":
             case "Reset();":
             case "reset();":
             case "RESET()":
+            case "Reset()":
             case "reset()":
-            case "reset":
+            case "RESET;":
+            case "Reset;":
+            case "reset;":
             case "RESET":
+            case "Reset":
+            case "reset":
                 OnClickStart(true);
                 break;
             case "RUN();":
+            case "Run();":
             case "run();":
             case "RUN()":
+            case "Run()":
             case "run()":
-            case "run":
+            case "RUN;":
+            case "Run;":
+            case "run;":
             case "RUN":
-            case "Run();":
+            case "Run":
+            case "run":
                 OnClickStart(false);
                 break;
             case "EXIT();":
             case "Exit();":
             case "exit();":
             case "EXIT()":
+            case "Exit()":
             case "exit()":
+            case "EXIT;":
+            case "Exit;":
+            case "exit;":
             case "EXIT":
+            case "Exit":
             case "exit":
                 OnClickExit();
                 break;
@@ -85,17 +107,27 @@ public class MainPage : MonoBehaviour
             case "Made();":
             case "made();":
             case "MADE()":
+            case "Made()":
             case "made()":
+            case "MADE;":
+            case "Made;":
+            case "made;":
             case "MADE":
+            case "Made":
             case "made":
                 makers.SetActive(true);
                 break;
             case "ENDING();":
-            case "Ending()":
+            case "Ending();":
             case "ending();":
             case "ENDING()":
+            case "Ending()":
             case "ending()":
+            case "ENDING;":
+            case "Ending;":
+            case "ending;":
             case "ENDING":
+            case "Ending":
             case "ending":
                 endings.SetActive(true);
                 endingClose.SetActive(true);
@@ -105,6 +137,19 @@ public class MainPage : MonoBehaviour
                 output.text = "";
                 break;
         }
+    }
+
+    public void OnClickMakers() => makers.SetActive(true);
+    public void OnClickEndings()
+    {
+        endings.SetActive(true);
+        endingClose.SetActive(true);
+    }
+
+    public void TransformMode()
+    {
+        beginnerPage.SetActive(!beginnerPage.activeSelf);
+        beginnerText.text = beginnerPage.activeSelf ? "전공자 모드로 변경" : "비전공자 모드로 변경";
     }
 
     public void OnClickStart(bool b)
