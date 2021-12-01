@@ -49,11 +49,8 @@ Sound Designer (1) : Lee Jeong Hun
   
   
 ---
-  
-  
-  
-# 컴공생키우기 전체 다이얼로그 시스템
 
+> 전체 시스템 아웃라인
 
 ![image](https://user-images.githubusercontent.com/67333432/144268169-b82f7f10-3acf-4843-876d-a2c991f91fcc.png)
 
