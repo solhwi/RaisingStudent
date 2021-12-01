@@ -58,11 +58,11 @@ Sound Designer (1) : Lee Jeong Hun
 
 - 요청을 받은 게임 매니저는 퀘스트 매니저 혹은 토크 매니저를 호출한다.
 
-- 토크 매니저는 Questdata(Json) 혹은 npcdata, objectData(스크립트 컴포넌트)를 분석하여 다이얼로그 매니저에게 보낸다.
+- 토크 매니저는 Questdata(Json, Scriptable Object) 혹은 npcdata, objectdata(Monobehaviour)를 분석하여 다이얼로그 매니저에게 보낸다.
 
 - 다이얼로그 매니저는 데이터를 받아 대화하는 NPC의 일러스트 / 표정 / 대사를 추출한다.
 
-- 화면에 출력!
+- 애니메이션 효과와 함께 화면에 출력!
 
 
   
