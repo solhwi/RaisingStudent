@@ -9,11 +9,12 @@ It's a personal work to celebrate my graduation.
 Release Link
 
 
+---
+
+
 > **2D** / **다이얼로그** / **퀘스트** / **안드로이드** 게임입니다.
 
 It's based on 2D platform and Dialogue, Quest, Android game. 
-
-
 
 
 > 개발기간 : 2020.12.10 ~ 2021.08.27
@@ -21,6 +22,7 @@ It's based on 2D platform and Dialogue, Quest, Android game.
 Dev Period : 2020.12.10 ~ 2021.08.27
 
 
+---
 
 
 > 개발인원 : 7명
@@ -34,6 +36,7 @@ Dev Period : 2020.12.10 ~ 2021.08.27
 > **사운드** : 이정훈
 
 
+---
 
 
 Game Designer (3) : Park Sol Hwi, Lee Ha Yeong
