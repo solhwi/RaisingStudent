@@ -46,23 +46,27 @@ Game Artists (3) : Lee Ga Eun, Lee Gyeong Ju, No Heuijin
 Game Programmers (4) : Park Sol Hwi, Heo Jun Hyeok
 
 Sound Designer (1) : Lee Jeong Hun
-
+  
+  
+---
+  
+  
+  
+# 컴공생키우기 전체 다이얼로그 시스템
 
 ---
 
-## 컴공생키우기 전체 다이얼로그 시스템
-
 ![image](https://user-images.githubusercontent.com/67333432/144268169-b82f7f10-3acf-4843-876d-a2c991f91fcc.png)
 
-> 사용자는 UI를 통해 캐릭터의 퀘스트 혹은 일반 대화 데이터를 요청한다.
+- 사용자는 UI를 통해 캐릭터의 퀘스트 혹은 일반 대화 데이터를 요청한다.
 
-> 요청을 받은 게임 매니저는 퀘스트 매니저 혹은 토크 매니저를 호출한다.
+- 요청을 받은 게임 매니저는 퀘스트 매니저 혹은 토크 매니저를 호출한다.
 
-> 토크 매니저는 Questdata(Json) 혹은 npcdata, objectData(스크립트 컴포넌트)를 분석하여 다이얼로그 매니저에게 보낸다.
+- 토크 매니저는 Questdata(Json) 혹은 npcdata, objectData(스크립트 컴포넌트)를 분석하여 다이얼로그 매니저에게 보낸다.
 
-> 다이얼로그 매니저는 데이터를 받아 대화하는 NPC의 일러스트 / 표정 / 대사를 추출한다.
+- 다이얼로그 매니저는 데이터를 받아 대화하는 NPC의 일러스트 / 표정 / 대사를 추출한다.
 
-> 화면에 출력!
+- 화면에 출력!
 
 
   
