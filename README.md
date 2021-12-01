@@ -46,3 +46,10 @@ Game Artists (3) : Lee Ga Eun, Lee Gyeong Ju, No Heuijin
 Game Programmers (4) : Park Sol Hwi, Heo Jun Hyeok
 
 Sound Designer (1) : Lee Jeong Hun
+
+
+---
+
+![image](https://user-images.githubusercontent.com/67333432/144268169-b82f7f10-3acf-4843-876d-a2c991f91fcc.png)
+
+  
